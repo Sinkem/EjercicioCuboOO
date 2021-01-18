@@ -8,8 +8,6 @@ public class Main {
         cubo1.getCapacidadMax();
         cubo1.getCapacidadActual();
 
-        cubo1.pintarAsa();
-        cubo1.pintarVacioCubo();
-        cubo1.pintarLlenoCubo();
+        cubo1.pintarCubo();
     }
 }

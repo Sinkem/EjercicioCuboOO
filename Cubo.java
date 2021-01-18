@@ -84,6 +84,14 @@ public class Cubo {
         }
     }
 
+    public void pintarCubo(){
+        if(asa == true){
+            pintarAsa();
+        }
+        pintarVacioCubo();
+        pintarLlenoCubo();
+    }
+
     public void llenar() {
         if (capacidadActual < capacidadMax) {
             capacidadActual++;
